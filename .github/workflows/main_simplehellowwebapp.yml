@@ -28,7 +28,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: app
-          path: '/app/build/libs/*.jar'
+          path: 'app/build/libs/*.jar'
 
   deploy:
     runs-on: ubuntu-latest
