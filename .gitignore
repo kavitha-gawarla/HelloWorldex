@@ -2,6 +2,9 @@
 .gradle
 
 # Ignore Gradle build output directory
-build/classes
-build/generated
-
+build/classes/*
+build/generated/*
+build/reports/**
+build/test-results/*
+build/tmp/*
+build/bootJar*
